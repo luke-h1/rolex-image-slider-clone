@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.wrapper  { 
+  margin-top: 20rem;
+}
+
+body,
+#slider,
+.slide-content {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+  height: 50%;
+  height: 50vh;
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url(/assets/imgs/datejust.png)
+}
+
+.slide1 {
+  background-image: url(/assets/imgs/oyster.png)
+}
+.slide1 {
+  background-image: url(/assets/imgs/submariner.png);
+}
+
+
+.slide-content { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span { 
+  font-size: 2rem;
+  color: #fff;
+}
+
+
+.arrow { 
+  cursor: pointer; 
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  width: 0;
+  height: 0;
+  border-style: solid; 
+}
+
+
+#arrow-left { 
+  border-width: 30px 40px 30px 0;
+  left: 40rem;
+  margin-left: 30px;
+  border-color: transparent #000 transparent transparent;
+  margin-top: -35px;
+}
+
+#arrow-right { 
+  border-width: 30px 0px 30px 40px;
+  right: 40rem;
+  margin-right: 30px;
+  border-color: transparent transparent transparent #000;
+  margin-top: -35px;
+}
