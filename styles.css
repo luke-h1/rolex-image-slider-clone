@@ -60,7 +60,7 @@ body,
 
 .slide-content span { 
   font-size: 2rem;
-  color: #fff;
+  color: #000;
 }
 
 
@@ -73,14 +73,17 @@ body,
   height: 0;
   border-style: solid; 
 }
+.desc { 
+  margin-bottom: 10em;
 
+}
 
 #arrow-left { 
   border-width: 30px 40px 30px 0;
   left: 20rem;
   margin-left: 30px;
   border-color: transparent #000 transparent transparent;
-  margin-top: -35px;
+  margin-top: 45px;
 }
 
 #arrow-right { 
@@ -88,5 +91,5 @@ body,
   right: 20rem;
   margin-right: 30px;
   border-color: transparent transparent transparent #000;
-  margin-top: -35px;
+  margin-top: 45px;
 }
